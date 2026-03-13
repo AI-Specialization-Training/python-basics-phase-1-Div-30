@@ -6,5 +6,9 @@
 # ============================================================================
 
 def repeat(value, count):
-    return value * count
+    result = ""
+    for i in range(count):
+        result += value
+    return result
+
 print(repeat("amen", 5))
